@@ -1,0 +1,25 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.coundown-container{ 
+    text-align: center;
+}
+.coundown-timeer{ 
+    font-weight: bold;
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+.coundown-labal{ 
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}

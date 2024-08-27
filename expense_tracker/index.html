@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>expence tracker</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expance Tracker</h1>
+      <form action="" id="expance-form">
+        <input
+          type="text"
+          id="desc"
+          placeholder="Expence desc "
+          required
+        /><br />
+        <select id="category" required>
+          <option value="">select category</option>
+          <option value="Food">Food</option>
+          <option value="Car">Car</option>
+          <option value="transpotaition">transpotaition</option>
+          <option value="travel">travel</option>
+          <option value="phone">phone</option>
+          <option value="other">other</option>
+        </select>
+        <br />
+        <input type="number" id="amount" placeholder="Amount" required />
+        <br />
+        <input type="submit" value="Add-expence" id="button" />
+      </form>
+
+      <h2>Expence Summary</h2>
+      <table id="expence-table">
+        <thead>
+          <tr>
+            <th>Descripition</th>
+            <th>Category</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody id="expencelist"></tbody>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
